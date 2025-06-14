@@ -19,3 +19,4 @@
 - Precisa utiilizar um ambiente virtual para rodar (venv)
 - Tem um artigo da [Medium](https://medium.com/axinc-ai/whisper-large-v3-turbo-high-accuracy-and-fast-speech-recognition-model-be2f6af77bdc) falando sobre o modelo
 - Precisa de acesso à rede para carregar o modelo
+- Seria mais interessante usar o modelo offline
