@@ -89,10 +89,11 @@ def transcrever_audio():
         tempo_total = time.time() - start_total + tempo_carregamento_modelo
 
         text_output.delete('1.0', tk.END)
-        text_output.insert(tk.END, "-"*30 + "\n")
+        text_output.insert(tk.END, "-"*50 + "\n")
         text_output.insert(tk.END, f"TEXTO TRANSCRITO:\n{transcribed_text}\n")
+        text_output.insert(tk.END, "-"*50 + "\n")
         text_output.insert(tk.END, f"Tempo de carregamento do modelo: {tempo_carregamento_modelo:.2f} segundos\n")
-        text_output.insert(tk.END, "-"*30 + "\n")
+        
 
         # MOSTRA A RESPOSTA NA INTERFACE
         text_output.insert(tk.END, f"Tempo de transcrição: {tempo_transcricao:.2f} segundos\n")
@@ -100,7 +101,7 @@ def transcrever_audio():
         
         text_output.insert(tk.END, "* *"*5 + "\n")
 
-        text_output.insert(tk.END, f"\nModelo utilizado: openai/whisper-large-v3\n")
+        text_output.insert(tk.END, f"Modelo utilizado: openai/whisper-large-v3\n")
 
         text_output.insert(tk.END, "* *"*5 + "\n")
 
