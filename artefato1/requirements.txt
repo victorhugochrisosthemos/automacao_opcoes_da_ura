@@ -1,0 +1,7 @@
+torch
+torchaudio
+transformers>=4.38.0
+datasets>=2.18.0
+sentencepiece
+accelerate
+pyinstaller
