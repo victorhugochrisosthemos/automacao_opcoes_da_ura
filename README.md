@@ -17,3 +17,5 @@
 - Fiz poucos testes, mas é possível verificar que alguns produtos não foram reconhecidos pelo modelo, o TIP 1001 D por exemplo foi transcrito como Chip 1001D, o que consequentemente faz com que ele não seja encontrado na base de registros do .CSV de teste
 - Não fiz um executável
 - Precisa utiilizar um ambiente virtual para rodar (venv)
+- Tem um artigo da [Medium](https://medium.com/axinc-ai/whisper-large-v3-turbo-high-accuracy-and-fast-speech-recognition-model-be2f6af77bdc) falando sobre o modelo
+- Precisa de acesso à rede para carregar o modelo
