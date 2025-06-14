@@ -4,7 +4,7 @@
 
 ### [Artefato 1](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/artefato1)
 
-![image](https://github.com/user-attachments/assets/2d2d8af4-f1b7-408b-968d-96cb1291e42a)
+![image](https://github.com/user-attachments/assets/c7a9202b-0c10-462f-b44e-15421bc9ad87)
 
 - Primeiro teste para abordar o problema, teve relativo sucesso, porém com algumas considearções a serem feitas;
 - Está demorando para carregar o modelo e para transcrever;
@@ -15,3 +15,5 @@
   - Testar um hardware com GPU potente;
   - Testar outros modelos do Hugging Face;
 - Fiz poucos testes, mas é possível verificar que alguns produtos não foram reconhecidos pelo modelo, o TIP 1001 D por exemplo foi transcrito como Chip 1001D, o que consequentemente faz com que ele não seja encontrado na base de registros do .CSV de teste
+- Não fiz um executável
+- Precisa utiilizar um ambiente virtual para rodar (venv)
