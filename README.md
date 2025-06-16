@@ -11,8 +11,6 @@
 
 ### Teste 2
 
-![Screenshot_1](https://github.com/user-attachments/assets/d653e64c-49b1-4564-8b3e-ea0db8a711ec)
-
 
 - Primeiro teste para abordar o problema, teve relativo sucesso, porém com algumas considearções a serem feitas;
 - Está demorando para carregar o modelo e para transcrever;
