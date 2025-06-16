@@ -4,12 +4,12 @@
 
 ## [Artefato 1](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/artefato1)
 
-# Teste 1
+### Teste 1
 
 ![image](https://github.com/user-attachments/assets/c7a9202b-0c10-462f-b44e-15421bc9ad87)
 
 
-# Teste 2
+### Teste 2
 
 ![Screenshot_1](https://github.com/user-attachments/assets/d653e64c-49b1-4564-8b3e-ea0db8a711ec)
 
