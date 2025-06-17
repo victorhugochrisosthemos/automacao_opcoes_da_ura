@@ -14,7 +14,7 @@
 ![image](https://github.com/user-attachments/assets/4fcc4d35-5bd8-456e-b4c1-441d579467ef)
 
 
-- Primeiro teste para abordar o problema, teve relativo sucesso, porém com algumas considearções a serem feitas;
+- Primeiro teste para abordar o problema, teve relativo sucesso, porém com algumas considerações a serem feitas;
 - Está demorando para carregar o modelo e para transcrever;
 - Foi utilizado recursos do site Hugging Face para encontrar um modelo de IA;
 - O modelo usado é o whisper-large-v3
