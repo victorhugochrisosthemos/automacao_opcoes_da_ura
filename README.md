@@ -1,6 +1,11 @@
 # Automação de opções da URA
 
 - Objetivo: Diminuir o tempo de atendimento de ligações realizadas para o setor de suporte através de uma automação envolvendo inteligência artificial
+- O funcionamento inicial dos protótipos seguem a seguinte lógica:
+  1. pega-se um áudio .mp3
+  2. usa o modelo whisper para transcrever de áudio para texto
+  3. nesse texto é verificado se há algum produto Intelbras
+  4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
 
 ## [Artefato 1](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/artefato1)
 
