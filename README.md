@@ -9,7 +9,14 @@
  
 ## [Protótipo 4]()
 
-![image](https://github.com/user-attachments/assets/64783de4-3be4-47d5-8296-78ce6eac5d61)
+![image](https://github.com/user-attachments/assets/1370bd35-7747-4b94-aab9-df01bdb2209f)
+
+
+- Utilização do modelo [Whisper Large](https://github.com/ggml-org/whisper.cpp) rodando offline
+- Exige uma boa capacidade de processamento
+- Demora para carregar o modelo, mas até o momento é o que gera as melhores transcrições
+- A demora pode ser resolvida usando um hardware mais potente
+- Tive que baixar e instalar o [FFMPEG](https://www.gyan.dev/ffmpeg/builds/), usei a versão [Essentials](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 
 
 ## [Protótipo 3]()
