@@ -13,6 +13,7 @@
 
 
 - Utilização do modelo [Whisper Large](https://github.com/ggml-org/whisper.cpp) rodando offline
+- Modelo pesado
 - Exige uma boa capacidade de processamento
 - Demora para carregar o modelo, mas até o momento é o que gera as melhores transcrições
 - A demora pode ser resolvida usando um hardware mais potente
@@ -21,7 +22,18 @@
 
 ## [Protótipo 3]()
 
+![image](https://github.com/user-attachments/assets/33a95526-4e44-4daf-a410-0cadfcfecf18)
+
+- Utilizado o modelo [VOSK](https://alphacephei.com/vosk/models), rodando offline
+- Esse é um modelo leve, mas não tão preciso
+
 ## [Protótipo 2]()
+
+![image](https://github.com/user-attachments/assets/3ec0b49a-e536-4f44-876a-f890e2148a4b)
+
+- Modelo de IA disponilizado pelo Facebook/Meta
+- Diponível no Hugging Face
+- Precisa de acesso à internet
 
 ## [Protótipo 1]()
 
@@ -50,3 +62,8 @@
 - Precisa de acesso à rede para carregar o modelo
 - Seria mais interessante usar o modelo offline
 - Não precisa de chave para usar o modelo, pelo pouco que li dá para baixar sim, mas vou deixar para o próximo artefato
+
+
+### Desenvolvedores
+- Victor Chrisosthemos
+- Vitor dos Santos
