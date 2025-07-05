@@ -6,6 +6,7 @@
   2. usa o modelo whisper para transcrever de áudio para texto
   3. nesse texto é verificado se há algum produto Intelbras
   4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
+- Foi criado um [relatório]() sobre viabilidade de integração com a Talkdesk
  
 ## [Protótipo 4]()
 
@@ -65,5 +66,6 @@
 
 
 ### Desenvolvedores
-- Victor Chrisosthemos
+
 - Vitor dos Santos
+- Victor Chrisosthemos
