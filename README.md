@@ -6,8 +6,17 @@
   2. usa o modelo whisper para transcrever de áudio para texto
   3. nesse texto é verificado se há algum produto Intelbras
   4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
+ 
+## [Protótipo 4]()
 
-## [Artefato 1](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/artefato1)
+![image](https://github.com/user-attachments/assets/64783de4-3be4-47d5-8296-78ce6eac5d61)
+
+
+## [Protótipo 3]()
+
+## [Protótipo 2]()
+
+## [Protótipo 1]()
 
 ### Teste 1
 
