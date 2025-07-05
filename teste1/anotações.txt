@@ -1,0 +1,13 @@
+navegue até a pasta teste1
+
+--------------------------------------------
+digite no terminal ->
+
+.\.venv\Scripts\activate
+
+--------------------------------------------
+para para use ->
+
+deactivate
+
+--------------------------------------------
