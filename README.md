@@ -8,7 +8,7 @@
   4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
 - Foi criado um [relatório]() sobre viabilidade de integração com a Talkdesk
  
-## [Protótipo 4]()
+## [Protótipo 4](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste3)
 
 ![image](https://github.com/user-attachments/assets/1370bd35-7747-4b94-aab9-df01bdb2209f)
 
@@ -21,14 +21,14 @@
 - Tive que baixar e instalar o [FFMPEG](https://www.gyan.dev/ffmpeg/builds/), usei a versão [Essentials](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 
 
-## [Protótipo 3]()
+## [Protótipo 3](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste2)
 
 ![image](https://github.com/user-attachments/assets/33a95526-4e44-4daf-a410-0cadfcfecf18)
 
 - Utilizado o modelo [VOSK](https://alphacephei.com/vosk/models), rodando offline
 - Esse é um modelo leve, mas não tão preciso
 
-## [Protótipo 2]()
+## [Protótipo 2](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste1)
 
 ![image](https://github.com/user-attachments/assets/3ec0b49a-e536-4f44-876a-f890e2148a4b)
 
