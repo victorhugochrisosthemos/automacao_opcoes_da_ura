@@ -19,6 +19,7 @@
 - Demora para carregar o modelo, mas até o momento é o que gera as melhores transcrições
 - A demora pode ser resolvida usando um hardware mais potente
 - Tive que baixar e instalar o [FFMPEG](https://www.gyan.dev/ffmpeg/builds/), usei a versão [Essentials](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
+- Pode perceber que a transcrição não está correta, mas no arquivo .csv foi colocado possíveis transcrições já testadas que o modelo interpreta, com isso mesmo a transcrição sendo errada podemos identificar qual produto se refere
 
 
 ## [Protótipo 3](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste2)
@@ -27,6 +28,7 @@
 
 - Utilizado o modelo [VOSK](https://alphacephei.com/vosk/models), rodando offline
 - Esse é um modelo leve, mas não tão preciso
+- Pode perceber que a transcrição não está correta, mas no arquivo .csv foi colocado possíveis transcrições já testadas que o modelo interpreta, com isso mesmo a transcrição sendo errada podemos identificar qual produto se refere
 
 ## [Protótipo 2](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste1)
 
@@ -35,6 +37,7 @@
 - Modelo de IA disponilizado pelo Facebook/Meta
 - Diponível no Hugging Face
 - Precisa de acesso à internet
+- Pode perceber que a transcrição não está correta, mas no arquivo .csv foi colocado possíveis transcrições já testadas que o modelo interpreta, com isso mesmo a transcrição sendo errada podemos identificar qual produto se refere
 
 ## [Protótipo 1]()
 
