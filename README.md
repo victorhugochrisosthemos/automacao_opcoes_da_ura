@@ -35,7 +35,7 @@
 ![image](https://github.com/user-attachments/assets/3ec0b49a-e536-4f44-876a-f890e2148a4b)
 
 - Modelo de IA disponilizado pelo Facebook/Meta
-- Diponível no Hugging Face
+- Diponível no [Hugging Face](https://huggingface.co/)
 - Precisa de acesso à internet
 - Pode perceber que a transcrição não está correta, mas no arquivo .csv foi colocado possíveis transcrições já testadas que o modelo interpreta, com isso mesmo a transcrição sendo errada podemos identificar qual produto se refere
 
