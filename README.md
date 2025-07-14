@@ -7,6 +7,33 @@
   3. nesse texto é verificado se há algum produto Intelbras
   4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
 - Foi criado um [relatório](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/blob/main/Viabilidade_de_Integrao_entre_Talkdesk_e_o_Projeto_IA_na_URA.pdf) sobre viabilidade de integração com a Talkdesk
+
+# Fase 2
+
+- Realização de um sistema que integre o algoritmo gerado da fase 1 com a seleção de opções da URA de um servidor SIP
+- Exemplo: quando o cliente ligar, o algoritmo identifica qual é a fila do suporte, e esse sistema da fase 2 precisa navegar em opções da URA, se for uma DISA multinível, o sistema deve enviar innformações para o servidor para chegar até seu destino através das opções
+
+## [Protótipo 1]()
+
+<img width="784" height="522" alt="image" src="https://github.com/user-attachments/assets/a6d68f72-f99e-4db3-9866-788d9b2b9f14" />
+
+- Informações SIP estão sendo duplicadas, ainda estamos vendo como debugar isso
+- Não está funcional
+- O ideial é o servidor SIP apontado pelo código seja uma UnniTI 2k ou um IAD 100 para testes
+- Como rodar o código?
+1. Rode o código em um virtual environment, não é obrigatório, mas ajuda se precisar rodar versões diferentes de python, por exemplo. Tem um arquivo chamado anotações.txt no diretório desse protótipo
+2. Instale o Python 3.8+ e verifique com `python --version`.
+3. Altere a linha `server = SIPURAServer(...)` com o IP local da máquina (`host`), IP e porta da sua PBX (`pbx_ip`, `pbx_port`) e porta RTP desejada (`rtp_port`).
+4. Certifique-se de que as portas `5091` (SIP) e `13010` (RTP) estão liberadas no firewall e roteador.
+5. Execute o servidor com `python sip_ura_server.py` no terminal.
+6. Configure seu softphone (Ex: Linphone ou Zoiper) para registrar no IP/porta configurados no servidor.
+7. Faça uma chamada para o URA usando o softphone e siga as instruções no terminal para navegar pelos menus.
+
+
+
+# Fase 1
+
+- Desenvolvimento de conexão do  modelo Whisper Large com dados sobre produtos Intelbras e suas filas correspondentes de suporte técnico
  
 ## [Protótipo 4](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/tree/main/teste3)
 
