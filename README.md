@@ -6,7 +6,7 @@
   2. usa o modelo whisper para transcrever de áudio para texto
   3. nesse texto é verificado se há algum produto Intelbras
   4. se houver então indicamos qual é a fila de suporte correta para direcionar o cliente
-- Foi criado um [relatório](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/blob/main/Viabilidade_de_Integrao_entre_Talkdesk_e_o_Projeto_IA_na_URA.pdf) sobre viabilidade de integração com a Talkdesk
+- Foi criado uma [pesquisa](https://github.com/victorhugochrisosthemos/automacao_opcoes_da_ura/blob/main/Viabilidade_de_Integrao_entre_Talkdesk_e_o_Projeto_IA_na_URA.pdf) sobre viabilidade de integração com a Talkdesk
 
 # Fase 2
 
