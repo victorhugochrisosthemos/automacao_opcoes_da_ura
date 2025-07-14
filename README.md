@@ -20,6 +20,7 @@
 - Informações SIP estão sendo duplicadas, ainda estamos vendo como debugar isso
 - Não está funcional
 - O ideal é o servidor SIP apontado pelo código seja uma UnniTI 2k ou um IAD 100 para testes
+  <br><br>
 - Como rodar o código?
 1. Rode o código em um virtual environment, não é obrigatório, mas ajuda se precisar rodar versões diferentes de python, por exemplo. Tem um arquivo chamado anotações.txt no diretório desse protótipo
 2. Instale o Python 3.8+ e verifique com `python --version`
