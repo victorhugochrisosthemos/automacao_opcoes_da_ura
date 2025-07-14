@@ -19,15 +19,15 @@
 
 - Informações SIP estão sendo duplicadas, ainda estamos vendo como debugar isso
 - Não está funcional
-- O ideial é o servidor SIP apontado pelo código seja uma UnniTI 2k ou um IAD 100 para testes
+- O ideal é o servidor SIP apontado pelo código seja uma UnniTI 2k ou um IAD 100 para testes
 - Como rodar o código?
 1. Rode o código em um virtual environment, não é obrigatório, mas ajuda se precisar rodar versões diferentes de python, por exemplo. Tem um arquivo chamado anotações.txt no diretório desse protótipo
-2. Instale o Python 3.8+ e verifique com `python --version`.
-3. Altere a linha `server = SIPURAServer(...)` com o IP local da máquina (`host`), IP e porta da sua PBX (`pbx_ip`, `pbx_port`) e porta RTP desejada (`rtp_port`).
-4. Certifique-se de que as portas `5091` (SIP) e `13010` (RTP) estão liberadas no firewall e roteador.
-5. Execute o servidor com `python sip_ura_server.py` no terminal.
-6. Configure seu softphone (Ex: Linphone ou Zoiper) para registrar no IP/porta configurados no servidor.
-7. Faça uma chamada para o URA usando o softphone e siga as instruções no terminal para navegar pelos menus.
+2. Instale o Python 3.8+ e verifique com `python --version`
+3. Altere a linha `server = SIPURAServer(...)` com o IP local da máquina (`host`), IP e porta da sua PBX (`pbx_ip`, `pbx_port`) e porta RTP desejada (`rtp_port`)
+4. Certifique-se de que as portas `5091` (SIP) e `13010` (RTP) estão liberadas
+5. Execute o servidor com `python sip_ura_server.py` no terminal
+6. Configure softphone (Ex: Microsip, 3cx) para registrar no IP/porta configurados no servidor
+7. Faça uma chamada para o URA usando o softphone e siga as instruções no terminal para navegar pelos menus
 
 
 
