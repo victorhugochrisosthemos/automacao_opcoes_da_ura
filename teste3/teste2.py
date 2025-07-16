@@ -9,6 +9,25 @@ import unicodedata
 import string
 import pandas as pd
 
+
+'''
+import os 
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, "resultado.csv")
+ 
+dados = pd.read_csv(
+    csv_path,
+    sep=';',        
+    encoding='latin-1'
+)
+
+
+'''
+
+
+
 # Carrega a planilha de produtos
 dados = pd.read_csv(
     'resultado.csv',
